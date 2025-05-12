@@ -1,0 +1,23 @@
+<div class="container">
+  <header class="header">
+    <h1>🚀 Bienvenido a Facturación</h1>
+    <p>Tu sistema ágil para gestión de ventas y recursos</p>
+  </header>
+
+  <main class="main">
+    <h2>Accesos rápidos</h2>
+    <div class="cards">
+      <a routerLink="cliente" class="card">👥 Clientes</a>
+      <a routerLink="empleado" class="card">💼 Empleados</a>
+      <a routerLink="factura" class="card">🧾 Facturas</a>
+    </div>
+
+    <!-- 👇 Aquí se cargan los formularios dinámicamente -->
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Facturación. Todos los derechos reservados.</p>
+    <p>Desarrollado por UMG</p>
+  </footer>
+</div>

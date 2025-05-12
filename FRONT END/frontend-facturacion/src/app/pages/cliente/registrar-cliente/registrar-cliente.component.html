@@ -1,0 +1,8 @@
+<div class="form-container">
+  <h2>Registrar Cliente</h2>
+  <input type="text" placeholder="Nombre" [(ngModel)]="cliente.nombre" />
+  <input type="text" placeholder="Dirección" [(ngModel)]="cliente.direccion" />
+  <input type="text" placeholder="NIT" [(ngModel)]="cliente.nit" />
+  <button (click)="registrarCliente()">Guardar</button>
+  <button (click)="limpiarCampos()" class="limpiar">Limpiar</button>
+</div>
